@@ -44,7 +44,7 @@ function RegistrationForm(props) {
     if (state.name && state.email && state.password && state.phone !== "") {
       console.log(state);
       axios
-        .post("http://entemadb.entema-software.com/insertHotelUserData", {
+        .post("https://entemadb.entema-software.com/insertHotelUserData", {
           userFullName: state.name,
           userPhoneNumber: state.phone,
           userEmail: state.email,

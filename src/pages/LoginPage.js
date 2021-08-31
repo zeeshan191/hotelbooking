@@ -74,7 +74,7 @@ class SignInForm extends Component {
 
     //console.log(this.state);
     axios
-      .post("http://entemadb.entema-software.com/loginHotelValidation", {
+      .post("https://entemadb.entema-software.com/loginHotelValidation", {
         userEmail: this.state.email,
         userPwd: this.state.password,        
       })

@@ -49,7 +49,7 @@ export default function MatPaginationTable() {
 
     const getData = () => {
         axios
-            .post("http://entemadb.entema-software.com/getHotelBookingOnEmail", {
+            .post("https://entemadb.entema-software.com/getHotelBookingOnEmail", {
                 headers: {
                     "Access-Control-Allow-Origin": "*",
                     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",

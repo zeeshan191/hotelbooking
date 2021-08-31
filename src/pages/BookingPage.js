@@ -38,7 +38,7 @@ function BookingPage(props) {
     e.preventDefault();
 
     axios
-      .post("http://entemadb.entema-software.com/insertBookRoomData", {
+      .post("https://entemadb.entema-software.com/insertBookRoomData", {
         headers: {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
